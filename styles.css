@@ -166,7 +166,7 @@ Tablet and Mobile Navigation Menu
 	padding: 0;
 	height: 650px;	
 	z-index: -1;
-	background-image: url('https://download.unsplash.com/23/black-white-city.JPG');
+	background-image: url('images/stl.jpg');
 	background-repeat: no-repeat;
 	background-position: center;	
 }
@@ -238,13 +238,13 @@ Tablet and Mobile Navigation Menu
 	background-position: center;
 }
 #galleryTile1 {
-	background-image: url('https://s-media-cache-ak0.pinimg.com/736x/6b/43/dc/6b43dc15309a2d5f8c1e5d2497472a37.jpg');
+	background-image: url('images/photographer.jpg');
 }
 #galleryTile2 {
-	background-image: url('http://33.media.tumblr.com/7c77df0084f87950b2d45c27ff4fe991/tumblr_inline_nhlv3gxsYH1s6lw3t.jpg');
+	background-image: url('images/cupcake.jpg');
 }
 #galleryTile3 {
-	background-image: url('https://0.s3.envato.com/files/129383818/Hand%20On%20Laptop%20Zoom%20590.jpg');
+	background-image: url('images/laptop.jpg');
 }
 .galleryTile a {
 	text-decoration: none;
@@ -256,7 +256,7 @@ Tablet and Mobile Navigation Menu
 	left: 0;
 	margin: 0;
 	padding: 0;
-	width: inherit;
+	width: 100%;
 	height: 325px;
 	background-color: rgba(0,0,0,0.0);
 	font-family: 'Oswald', sans-serif;
@@ -273,7 +273,7 @@ Tablet and Mobile Navigation Menu
 	text-shadow: 1px 1px 1px black;	
 }
 .galleryShade h2 {
-	margin-top: 10%;
+	margin-top: 15%;
 	font-size: 40px;		
 }
 .galleryShade p {
@@ -418,7 +418,7 @@ Tablet and Mobile Navigation Menu
 	padding: 0;
 	height: 650px;	
 	z-index: -1;
-	background-image: url('https://download.unsplash.com/23/black-white-city.JPG');
+	background-image: url('images/stl.jpg');
 	background-repeat: no-repeat;
 	background-position: center;	
 }
@@ -450,6 +450,12 @@ Tablet and Mobile Navigation Menu
 	margin-bottom: 0;
 	font-size: 25px;
 }
+#contactContainer a {
+	text-decoration: none;
+	color: rgba(175,255,61,1);
+	font-weight: bold;
+}
+
 #contactSocialIcons {
 	margin-top: 2%;
 	margin-bottom: 0;
@@ -485,7 +491,7 @@ Tablet and Mobile Navigation Menu
 	padding: 0;
 	height: 650px;	
 	z-index: -1;
-	background-image: url('https://download.unsplash.com/23/black-white-city.JPG');
+	background-image: url('images/stl.jpg');
 	background-repeat: no-repeat;
 	background-position: center;	
 }
@@ -508,6 +514,9 @@ Tablet and Mobile Navigation Menu
 	text-decoration: none;
 	color: rgba(175,255,61,1);
 	font-weight: bold;
+}
+#resume {
+	font-size: 25px;	
 }
 #aboutPageContainerShade p {		
 	margin-top: 2%;	
@@ -557,36 +566,39 @@ Tablet and Mobile Navigation Menu
 	cursor: pointer;
 }
 #fullGalleryTile1 {
-	background-image: url('https://s-media-cache-ak0.pinimg.com/736x/6b/43/dc/6b43dc15309a2d5f8c1e5d2497472a37.jpg');
+	background-image: url('images/photographer.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #fullGalleryTile2 {
-	background-image: url('http://33.media.tumblr.com/7c77df0084f87950b2d45c27ff4fe991/tumblr_inline_nhlv3gxsYH1s6lw3t.jpg');
+	background-image: url('images/cupcake.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #fullGalleryTile3 {
-	background-image: url('http://glassrepairnewyork.com/wp-content/uploads/EasyRotatorStorage/user-content/erc_50_1354840985/content/assets/Revolving-Doors-0.jpg');
+	background-image: url('images/laptop.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
 #fullGalleryTile4 {
-	background-image: url('https://0.s3.envato.com/files/129383818/Hand%20On%20Laptop%20Zoom%20590.jpg');
+	background-image: url('images/imageupload.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
-#fullGalleryTile5 {
-	background-image: url('http://i.imgur.com/SYgnoXu.png');	
+#fullGalleryTile5 {	
+	background-image: url('images/math.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 	background-position: center;
 }
 #fullGalleryTile6 {		
+	background-image: url('images/javascript.jpg');
 	background-repeat: no-repeat;
+	background-size: cover;
 	background-position: center;
 }
 .fullGalleryTile a {
@@ -618,11 +630,10 @@ Tablet and Mobile Navigation Menu
 .fullGalleryShade:hover {
 	background-color: rgba(0,0,0,0.9);
 	color: rgba(175,255,61,1);
-	text-shadow: 1px 1px 1px black;	
-	
+	text-shadow: 1px 1px 1px black;		
 }
 .fullGalleryShade h2 {
-	margin-top: 18%;
+	margin-top: 10%;
 	font-size: 38px;		
 }
 .fullGalleryShade p {
@@ -733,6 +744,9 @@ Tablet and Mobile Navigation Menu
 	}
 	#aboutContainer h1 {
 		margin-bottom: 0;
+	}
+	#aboutContainer p {
+		font-size: 20px;
 	}
 	#contactContainer {
 		height: 100%;
