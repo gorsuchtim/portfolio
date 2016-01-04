@@ -318,7 +318,7 @@ Tablet and Mobile Navigation Menu
 	font-family: 'Roboto', sans-serif;		
 	text-transform: lowercase;
 	border-bottom: 4px double black;
-	background: linear-gradient(#595965, white);
+	background: #595965;
 }
 #aboutContainer h1 {
 	font-size: 50px;
@@ -369,7 +369,7 @@ Tablet and Mobile Navigation Menu
 	padding: 0;
 	width: inherit;
 	height: 350px;
-	background: linear-gradient(white, #595965);
+	background: white;
 }
 #footerContainer img {
 	margin-top: 3%;
