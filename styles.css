@@ -273,8 +273,8 @@ Tablet and Mobile Navigation Menu
 	text-shadow: 1px 1px 1px black;	
 }
 .galleryShade h2 {
-	margin-top: 15%;
-	font-size: 40px;		
+	margin-top: 25%;
+	font-size: 30px;		
 }
 .galleryShade p {
 	margin-top: 2%;
@@ -432,14 +432,13 @@ Tablet and Mobile Navigation Menu
 #contactContainerShade h2 {	
 	margin-top: 10%;
 	margin-bottom: 0;	
-	font-size: 50px;
+	font-size: 40px;
 	font-weight: bold;
 	color: rgba(175,255,61,1);
 	text-shadow: 1px 1px 0px black;
 }
 #contactContainerShade h3 {	
-	margin-top: 2%;	
-	
+	margin-top: 2%;		
 	font-size: 30px;
 	font-weight: bold;
 	color: white;
@@ -505,7 +504,7 @@ Tablet and Mobile Navigation Menu
 #aboutPageContainerShade h2 {	
 	margin-top: 15%;
 	margin-bottom: 0;	
-	font-size: 40px;
+	font-size: 30px;
 	font-weight: bold;
 	color: rgba(175,255,61,1);
 	text-shadow: 1px 1px 0px black;
@@ -634,7 +633,7 @@ Tablet and Mobile Navigation Menu
 }
 .fullGalleryShade h2 {
 	padding-top: 10%;
-	font-size: 38px;		
+	font-size: 30px;		
 }
 .fullGalleryShade p {
 	margin-top: 2%;
