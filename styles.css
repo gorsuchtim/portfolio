@@ -603,7 +603,7 @@ Tablet and Mobile Navigation Menu
 }
 .fullGalleryTile a {
 	text-decoration: none;			
-	color: rgb(80,80,80);			
+	color: rgb(80,80,80);		
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	-ms-transition: all 0.2s ease-in-out;
@@ -633,7 +633,7 @@ Tablet and Mobile Navigation Menu
 	text-shadow: 1px 1px 1px black;		
 }
 .fullGalleryShade h2 {
-	margin-top: 10%;
+	padding-top: 10%;
 	font-size: 38px;		
 }
 .fullGalleryShade p {
