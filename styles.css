@@ -4,13 +4,15 @@ body {
 	margin: 0;
 	padding: 0;
 }
-#mainContainer {
-	top: 0;
-	left: 0;
+#mainContainer {	
 	margin: 0;
 	padding: 0;
 	width: inherit;
 }
+
+/*******************
+Hide mobile menu container
+***************************/
 @media screen and (min-width: 993px) {
 	.menuButton {
 		display: none;
@@ -26,15 +28,14 @@ body {
 /*-----------------------------------------------
 	Tablet and Mobile Navigation Menu and Button 
 -------------------------------------------------*/
-
 .menuButton {	
 	position: fixed;
 	height: 30px;
 	width: 40px;	
-	margin-top: 20px;
+	margin-top: 8px;
 	cursor: pointer;
 	z-index: 1;
-	right: 3%;
+	right: 5%;
 	background-color: transparent;
 }
 .menuBar hr {		
@@ -46,26 +47,23 @@ body {
 /*------------------------------------
 Tablet and Mobile Navigation Menu
 --------------------------------------*/
-
 #mobileMenu {
 	background-color: rgba(255,255,255,0.95);
-	height: 70px;
-	position: fixed;
-	top: 0;
-	left: 0;
+	height: 50px;
+	position: fixed;	
 	width: 100%;
 	z-index: 1;
 }
 #mobileLogo img {
-	height: 35px;
-	width: 25px;
-	margin-top: 5%;
+	height: 30px;
+	width: 20px;
+	margin-top: 9.5px;
 	float: left;
 }
 .mobileMenuClose {	
 	color: white;
 	font-family: 'Roboto', sans-serif;
-	font-size: 2.3em;
+	font-size: 25px;
 	cursor: pointer;
 	position: absolute;
 	top: 1.3%;
@@ -75,9 +73,7 @@ Tablet and Mobile Navigation Menu
 #mobileNavContainer {
 	background-color: rgba(0,0,0,0.9);
 	position: fixed;
-	font-family: 'Roboto', sans-serif;	
-	top: 0;
-	left: 0;
+	font-family: 'Roboto', sans-serif;		
 	width: 100%;
 	height: 100%;
 	z-index: 1;
@@ -85,7 +81,7 @@ Tablet and Mobile Navigation Menu
 #mobileNavContainer ul {
 	list-style: none;
 	text-align: center;
-	margin-top: 15%;	
+	margin-top: 160px;	
 }
 #mobileNavContainer li {
 	display: block;
@@ -112,27 +108,24 @@ Tablet and Mobile Navigation Menu
 /*-------------------------
 	Desktop Navigation
 -------------------------*/
-
 #navigationContainer {
 	font-family: 'Roboto', sans-serif;	
-	position: fixed;
-	top: 0;
-	left: 0;
+	position: fixed;	
 	width: 100%;
-	height: 70px;
+	height: 60px;
 	z-index: 9999;
 	background-color: rgba(255,255,255,1);
 }
 #navigationContainer img {
 	float: left;
-	height: 35px;
-	width: 25px;
-	margin-top: 2%;
+	height: 30px;
+	width: 20px;
+	margin-top: 15px;
 }
 #mainNavigation ul {
 	display: inline;
 	float: right;
-	margin-top: 2.5%;
+	margin-top: 14px;
 }
 #mainNavigation li {
 	display: inline;
@@ -157,78 +150,62 @@ Tablet and Mobile Navigation Menu
 /*------------------
 	Title Container
 --------------------*/
-
-#titleContainer {		
-	top: 0;
-	left: 0;
-	width: inherit;
+#titleContainer {
 	margin: 0;
 	padding: 0;
+	width: 100%;
 	height: 650px;	
 	z-index: -1;
 	background-image: url('images/stl.jpg');
 	background-repeat: no-repeat;
 	background-position: center;	
 }
-#titleContainerShade {
-	width: inherit;
+#titleContainerShade {	
+	width: 100%;
 	height: 650px;	
 	background-color: rgba(0,0,0,0.7);
 	font-family: 'Roboto', sans-serif;	
 	color: white;	
 }
 #titleContainerShade h2 {	
-	margin-top: 15%;	
-	font-size: 50px;
+	margin-top: 170px;	
+	font-size: 40px;
 	font-weight: bold;
 	color: rgba(175,255,61,1);
 	text-shadow: 3px 3px 3px black;
 }
 #titleContainerShade h3 {	
-	margin-top: 5%;	
+	margin-top: 60px;	
 	font-size: 30px;
 	font-weight: bold;
 	color: white;
 	text-shadow: 3px 3px 3px black;
 }
-#titleContainerShade h5 {		
-	margin-top: 5%;
-}
 #titleContainerShade span {
-	margin-top: 4%;
-	font-size: 25px;
+	margin-top: 60px;
+	font-size: 30px;
 	cursor: pointer;
-	color: rgb(180,180,180);
-}
-#titleContainerShade span:hover {
 	color: rgba(175,255,61,1);	
 }
-
+#titleContainerShade span:hover {
+	color: white;	
+}
 
 /*----------------------
 	Work Gallery
 -------------------------*/
-
-#workGallery {		
-	left: 0;
-	margin: 0;
-	padding: 0;
-	width: inherit;
-	height: 500px;	
+#workGalleryContainer {			
+	width: 95%;	
 	font-family: 'Roboto', sans-serif;		
 	text-transform: lowercase;
 	background-color: white;
 }
-#workGallery h1 {
+#workGalleryContainer h1 {
 	font-size: 50px;
-	margin-top: 5%;
-	margin-bottom: 5%;		
+	margin-top: 50px;
+	margin-bottom: 50px		;
 	color: rgba(175,255,61,1);
 	text-shadow: 1px 1px 0px black;
-}
-#galleryContainer {
-	width: inherit;
-	border-bottom: 4px double black;	
 }
 .galleryTile {
 	position: relative;	
@@ -273,20 +250,12 @@ Tablet and Mobile Navigation Menu
 	text-shadow: 1px 1px 1px black;	
 }
 .galleryShade h2 {
-	margin-top: 25%;
+	margin-top: 100px;
 	font-size: 30px;		
 }
-.galleryShade p {
-	margin-top: 2%;
-	
-	font-size: 18px;
-	text-transform: none;
-	font-family: 'Roboto', sans-serif;	
-	padding: 10px;
-}
 #galleryButton {
-	margin-top: 8%;
-	margin-bottom: 8%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 	background-color: transparent;
 	color: rgba(175,255,61,1);
 	text-shadow: 1px 1px 0px black;	
@@ -309,37 +278,35 @@ Tablet and Mobile Navigation Menu
 /*-------------------
 	About Container
 -----------------------*/
-
-#aboutContainer {		
-	left: 0;
-	margin: 0;
-	padding: 0;
-	width: inherit;	
+#aboutContainer {			
+	width: 100%;	
 	font-family: 'Roboto', sans-serif;		
 	text-transform: lowercase;
+	border-top: 4px double black;
 	border-bottom: 4px double black;
 	background: #595965;
 }
 #aboutContainer h1 {
 	font-size: 50px;
-	margin-top: 3%;
-	margin-bottom: 0;	
+	margin-top: 50px;
+	margin-bottom: 50px;		
+	color: rgba(175,255,61,1);
+	text-shadow: 1px 1px 0px black;	
 }
 #aboutContainer p {
-	font-size: 27px;	
-	margin-top: 5%;
+	font-size: 25px;		
 	color: white;
 	text-shadow: 1px 1px 1px black;	
 }
 #aboutContainer h5 {
 	font-size: 30px;
-	margin-top: 5%;		
+	margin-top: 50px;
 	font-family: 'Oswald', sans-serif;
 	text-shadow: 1px 1px 1px white;
 	font-weight: bold;	
 }
 #aboutButton {
-	margin: 3% 0;
+	margin: 50px 0;
 	background-color: rgba(175,255,61,1);
 	color: black;
 	border-color: rgba(175,255,61,1);
@@ -361,35 +328,38 @@ Tablet and Mobile Navigation Menu
 /*-------------------
 	Footer
 --------------------*/
-
-#footerContainer {
-	top: 0;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	width: inherit;
-	height: 350px;
+#footerContainer {	
+	width: inherit;	
 	background: white;
 }
-#footerContainer img {
-	margin-top: 3%;
+#footerLogo {
+	margin-top: 50px;	
+}
+#footerLogo img {
+	height: 45px; 
+	width: 30px;
+}
+#homeSocialIcons {
+	margin-top: 25px;
 }
 #footerContainer h1 {
 	color: rgba(175,255,61,1);
 	text-shadow: 1px 1px 0px black;
 	font-family: 'Roboto', sans-serif;	
 	font-size: 35px;
-	text-transform: none;
-	margin-top: 3%;	
-	margin-bottom: 0;
+	text-transform: none;	
 }
-#socialIcons {
-	margin-top: 2%;	
-	margin-bottom: 0;
+
+/********************
+Social Icon Styles
+*********************/
+.socialIcons {
+	margin-top: 50px;
+	padding-bottom: 50px;
 }
-#socialIcons img {
-	height: 48px;
-	width: 48px;	
+.socialIcons img {
+	height: 50px;
+	width: 50px;	
 	margin-right: 20px;	
 	padding: 5px;
 	border: 1px solid rgba(175,255,61,1);
@@ -400,155 +370,98 @@ Tablet and Mobile Navigation Menu
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
-#socialIcons img:hover {
-	border: 3px solid rgba(175,255,61,1);
+.socialIcons img:hover {	
 	border-radius: 16px;
+	border: 3px solid rgba(175,255,61,1);
 	transform: scale(1.2);	
 }
 
 /* --------------------
 	Contact Container
 -----------------------*/
-
 #contactContainer {	
-	top: 0;
-	left: 0;
 	width: inherit;
-	margin: 0;
-	padding: 0;
-	height: 650px;	
-	z-index: -1;
+	margin-top: 100px;
+	padding: 0;	
+	z-index: -1;	
 	background-image: url('images/stl.jpg');
 	background-repeat: no-repeat;
 	background-position: center;	
 }
-#contactContainerShade {
-	width: inherit;
-	height: 650px;	
+#contactContainerShade {	
+	width: inherit;	
 	background-color: rgba(0,0,0,0.7);
 	font-family: 'Roboto', sans-serif;	
 	color: white;	
 }
-#contactContainerShade h2 {	
-	margin-top: 10%;
-	margin-bottom: 0;	
+#contactContainerShade h2 {			
 	font-size: 40px;
+	padding-top: 25px;
 	font-weight: bold;
 	color: rgba(175,255,61,1);
 	text-shadow: 1px 1px 0px black;
 }
-#contactContainerShade h3 {	
-	margin-top: 2%;		
+#contactContainerShade h4 {	
+	margin-top: 25px;		
 	font-size: 30px;
 	font-weight: bold;
-	color: white;
-	text-shadow: 1px 1px 0px rgba(175,255,61,1);
+	color: white;	
 }
 #contactContainerShade p {		
-	margin-top: 2%;	
+	margin-top: 25px;	
 	margin-bottom: 0;
-	font-size: 25px;
+	font-size: 17px;
 }
 #contactContainer a {
 	text-decoration: none;
 	color: rgba(175,255,61,1);
 	font-weight: bold;
-}
-
-#contactSocialIcons {
-	margin-top: 2%;
-	margin-bottom: 0;
-}
-#contactSocialIcons img {
-	height: 50px;
-	width: 50px;	
-	margin-right: 20px;	
-	padding: 5px;
-	border: 1px solid rgba(175,255,61,1);
-	border-radius: 50%;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-}
-#contactSocialIcons img:hover {	
-	border-radius: 16px;
-	border: 3px solid rgba(175,255,61,1);
-	transform: scale(1.2);	
+	font-size: 20px;
 }
 
 /*------------------------
 	About Page Container
 -------------------------*/
-
 #aboutPageContainer {	
-	top: 0;
-	left: 0;
 	width: inherit;
-	margin: 0;
-	padding: 0;
-	height: 650px;	
-	z-index: -1;
+	margin-top: 100px;
+	padding: 0;	
+	z-index: -1;	
 	background-image: url('images/stl.jpg');
 	background-repeat: no-repeat;
 	background-position: center;	
 }
-#aboutPageContainerShade {
-	width: inherit;
-	height: 650px;	
+#aboutPageContainerShade {	
+	width: inherit;	
 	background-color: rgba(0,0,0,0.7);
 	font-family: 'Roboto', sans-serif;	
 	color: white;	
 }
-#aboutPageContainerShade h2 {	
-	margin-top: 15%;
-	margin-bottom: 0;	
-	font-size: 30px;
+#aboutPageContainerShade h2 {			
+	font-size: 40px;
+	padding-top: 25px;
 	font-weight: bold;
 	color: rgba(175,255,61,1);
 	text-shadow: 1px 1px 0px black;
 }
-#aboutPageContainerShade a {
+#aboutPageContainerShade h4 {	
+	margin-top: 25px;		
+	font-size: 30px;
+	font-weight: bold;
+	color: rgba(175,255,61,1);
+}
+#aboutPageContainerShade p {	
+	font-size: 17px;
+}
+#aboutPageContainer a {
 	text-decoration: none;
 	color: rgba(175,255,61,1);
 	font-weight: bold;
-}
-#resume {
-	font-size: 25px;	
-}
-#aboutPageContainerShade p {		
-	margin-top: 2%;	
-	margin-bottom: 0;
-	font-size: 23px;
-}
-#aboutSocialIcons {
-	margin-top: 2%;
-	margin-bottom: 0;
-}
-#aboutSocialIcons img {
-	height: 50px;
-	width: 50px;	
-	margin-right: 20px;	
-	padding: 5px;
-	border: 1px solid rgba(175,255,61,1);
-	border-radius: 50%;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-}
-#aboutSocialIcons img:hover {	
-	border-radius: 16px;
-	border: 3px solid rgba(175,255,61,1);
-	transform: scale(1.2);	
 }
 
 /*----------------------
 	Full Gallery
 -------------------------*/
-
 #fullGalleryContainer {
 	background-color: white;
 	width: inherit;	
@@ -563,42 +476,27 @@ Tablet and Mobile Navigation Menu
 	height: 275px;	
 	margin-top: 0%;	
 	cursor: pointer;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 }
 #fullGalleryTile1 {
-	background-image: url('images/photographer.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	background-image: url('images/photographer.jpg');	
 }
 #fullGalleryTile2 {
-	background-image: url('images/cupcake.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	background-image: url('images/cupcake.jpg');	
 }
 #fullGalleryTile3 {
 	background-image: url('images/laptop.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 #fullGalleryTile4 {
-	background-image: url('images/imageupload.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	background-image: url('images/imageupload.jpg');	
 }
 #fullGalleryTile5 {	
-	background-image: url('images/math.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
+	background-image: url('images/math.jpg');	
 }
 #fullGalleryTile6 {		
 	background-image: url('images/javascript.jpg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
 }
 .fullGalleryTile a {
 	text-decoration: none;			
@@ -643,54 +541,10 @@ Tablet and Mobile Navigation Menu
 	font-family: 'Roboto', sans-serif;	
 	padding: 10px;		
 }
-#comingSoon {	
-	color: rgba(175,255,61,1);
-	text-shadow: 1px 1px 1px black;	
-}
-.gallerySocialIcons {
-	margin-top: 2.6%;
-	margin-left: 38%;
-}
-.gallerySocialIcons img {
-	height: 50px;
-	width: 50px;	
-	margin-right: 20px;	
-	padding: 5px;
-	border: 1px solid rgba(175,255,61,1);
-	border-radius: 50%;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-}
-.gallerySocialIcons img:hover {
-	border: none;
-	border-radius: 16px;
-	transform: scale(1.2);	
-}
-#fullGalleryButton {
-	margin-top: 5%;
-	margin-bottom: 10%;
-	background-color: white;
-	color: black;	
-	border-radius: 16px;
-	text-transform: lowercase;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-}
-#fullGalleryButton:hover {
-	color: black;		
-	border-color: black;
-}
 
 /*---------------------
 	 Small Handheld Styles
 ----------------------*/
-
 @media screen and (max-width: 568px) {
 
 	#mobileMenu {
@@ -712,96 +566,63 @@ Tablet and Mobile Navigation Menu
 		height: 550px;
 	}
 	#titleContainer h2 {
-		margin-top: 40%;
-		font-size: 33px;
+		margin-top: 150px;
+		font-size: 30px;
 	}
 	#titleContainer h3 {
-		margin-top: 15%;
+		margin-top: 25px;
+		font-size: 25px;
 		line-height: 45px;
+	}
+	#titleContainer span {
+		margin-top: 25px;
 	}
 	.galleryShade {
 		background-color: rgba(0,0,0,0.5);
 	}
-	#workGallery h1 {
-		margin-top: 15%;
-		margin-bottom: 15%;
+	#workGalleryContainer h1 {
+		margin-top: 50px;
+		margin-bottom: 50px;
 		color: rgba(175,255,61,1);
 		text-shadow: 1px 1px 0px black;
 	}
-	#workGallery h2 {
-		margin-top: 15%;	
+	#workGalleryContainer h2 {
+		margin-top: 125px;	
 		color: rgba(175,255,61,1);	
 		text-shadow: 1px 1px 1px black;
 	}
-	#workGallery p {		
-		font-weight: bold;
-		color: white;
-		text-shadow: 1px 1px 0px rgba(175,255,61,1);
+	#workGalleryContainer button {
+		margin: 50px 0;
 	}
-	#workGallery button {
-		margin: 15% 0;
+	#workGalleryContainer span {
+		display: none;
 	}
 	#aboutContainer h1 {
-		margin-bottom: 0;
+		margin: 50px 0;
 	}
 	#aboutContainer p {
-		font-size: 20px;
+		font-size: 17px;
 	}
-	#contactContainer {
-		height: 100%;
-	}
-	#contactContainer h2 {
-		font-size: 40px;
-		margin-top: 25%;
-	}
-	#contactContainer p {
-		font-size: 20px;
-		margin-top: 7%;
-	}
-	#contactContainer h3 {
+	#aboutContainer h5 {
 		font-size: 25px;
-		margin-top: 7%;
 	}
-	#contactSocialIcons {
-		margin-top: 7%;
-		margin-bottom: 0;
+	#aboutContainer button {
+		margin: 50px 0;
 	}
-	#aboutPageContainer {
-		height: 100%;
-	}
-	#aboutPageContainerShade {
-		height: 100%;
-	}
-	#aboutSite {
-		margin-top: 25%;
-		font-size: 35px;
+	#aboutContainer span {
+		display: none;
+	}			
+	#contactContainer {		
+		margin-top: 50px;
 	}	
-	#aboutPageContainerShade h2 {
-		margin-top: 7%;
+	#contactContainer h4 {
+		font-size: 25px;
 	}
-	#aboutPageContainer p {
-		margin-top: 7%;
-		margin-bottom: 0;
-		font-size: 20px;
-	}
-	#aboutSocialIcons {
-		margin-top: 10%;
-		margin-bottom: 10%;
-	}
-	#aboutButton button {
-		margin-top: 2%;				
-	}
-	#footerContainer img {
-		margin-top: 8%;
-		margin-bottom: 0;
-	}
-	#footerContainer h1 {
-		margin-top: 10%;		
-		margin-bottom: 0;
-	}
-	#socialIcons {
-		margin-top: 5%;
-		margin-bottom: 0;
+	#aboutPageContainer {		
+		margin-top: 50px;
+	}	
+	#aboutPageContainer h4 {
+		font-size: 25px;
 	}
 	#fullGalleryRow1 {
 		margin-top: 20%;
@@ -809,15 +630,14 @@ Tablet and Mobile Navigation Menu
 	.fullGalleryShade {
 		background-color: rgba(0,0,0,0.6);
 	}
-	#fullGalleryContainer h2 {
-		margin-top: 15%;
+	#fullGalleryContainer h2 {		
 		color: rgba(175,255,61,1);
 		text-shadow: 1px 1px 1px black;
 	}
 	#fullGalleryContainer p {
 		color: white;
 		text-shadow: 1px 1px 1px black;
-		font-size: 20px;
+		font-size: 17px;
 	}
 }
 
@@ -825,8 +645,7 @@ Tablet and Mobile Navigation Menu
 	 Handheld Styles to 640px width
 ----------------------*/
 
-@media screen and (min-width: 569px) and (max-width: 640px) {
-	
+@media screen and (min-width: 569px) and (max-width: 640px) {	
 
 	#mobileMenu {
 		background-color: white;
@@ -838,7 +657,7 @@ Tablet and Mobile Navigation Menu
 		display: none;
 	}
 	#mobileNavContainer ul {
-		margin-top: 10%;
+		margin-top: 85px;
 	}
 	#titleContainer {
 		height: 550px;
@@ -847,94 +666,44 @@ Tablet and Mobile Navigation Menu
 		height: 550px;
 	}
 	#titleContainer h2 {
-		margin-top: 30%;
-		font-size: 33px;
+		margin-top: 150px;
+		font-size: 30px;
 	}
 	#titleContainer h3 {
-		margin-top: 15%;
+		margin-top: 50px;
+		font-size: 25px;
 		line-height: 45px;
+	}
+	#titleContainer span {
+		margin-top: 50px;
 	}
 	.galleryShade {
 		background-color: rgba(0,0,0,0.5);
-	}
-	#workGallery h1 {
-		margin-top: 10%;
-		margin-bottom: 10%;
-		color: rgba(175,255,61,1);
-		text-shadow: 1px 1px 0px black;
-	}
-	#workGallery h2 {
-		margin-top: 15%;	
+	}	
+	#workGalleryContainer h2 {		
 		color: rgba(175,255,61,1);	
 		text-shadow: 1px 1px 1px black;
 	}
-	#workGallery p {		
-		font-weight: bold;
-		color: white;
-		text-shadow: 1px 1px 0px rgba(175,255,61,1);
-	}
-	#workGallery button {
-		margin: 10% 0;
-	}
-	#aboutContainer h1 {
-		margin-top: 5%;
-		margin-bottom: 0;
-	}
-	#contactContainer {
-		height: 100%;
-	}
-	#contactContainer h2 {
-		font-size: 40px;
-		margin-top: 20%;
-	}
-	#contactContainer p {
-		font-size: 20px;
-		margin-top: 7%;
-	}
-	#contactContainer h3 {
-		font-size: 25px;
-		margin-top: 7%;
-	}
-	#contactSocialIcons {
-		margin-top: 7%;
-		margin-bottom: 0;
-	}
-	#aboutPageContainer {
-		height: 100%;
-	}
-	#aboutPageContainerShade {
-		height: 100%;
-	}
-	#aboutSite {
-		margin-top: 20%;
-		font-size: 35px;
+	#workGalleryContainer span {
+		display: none;
 	}	
-	#aboutPageContainerShade h2 {
-		margin-top: 7%;
+	#aboutContainer span {
+		display: none;
 	}
-	#aboutPageContainer p {
-		margin-top: 7%;
-		margin-bottom: 0;
-		font-size: 20px;
+	#contactContainer {		
+		margin-top: 50px;
+	}		
+	#contactContainer h4 {
+		font-size: 25px;
 	}
-	#aboutSocialIcons {
-		margin-top: 10%;
-		margin-bottom: 10%;
+	#aboutPageContainer {		
+		margin-top: 50px;
 	}
+	#aboutPageContainer h4 {
+		font-size: 25px;
+	}	
 	#aboutButton button {
 		margin-top: 2%;				
-	}
-	#footerContainer img {
-		margin-top: 8%;
-		margin-bottom: 0;
-	}
-	#footerContainer h1 {
-		margin-top: 10%;		
-		margin-bottom: 0;
-	}
-	#socialIcons {
-		margin-top: 0;
-		margin-bottom: 5%;
 	}
 	#fullGalleryRow1 {
 		margin-top: 20%;
@@ -942,15 +711,14 @@ Tablet and Mobile Navigation Menu
 	.fullGalleryShade {
 		background-color: rgba(0,0,0,0.6);
 	}
-	#fullGalleryContainer h2 {
-		margin-top: 10%;
+	#fullGalleryContainer h2 {		
 		color: rgba(175,255,61,1);
 		text-shadow: 1px 1px 1px black;
 	}
 	#fullGalleryContainer p {
 		color: white;
 		text-shadow: 1px 1px 1px black;
-		font-size: 20px;
+		font-size: 17px;
 	}
 }
 
@@ -976,31 +744,21 @@ Tablet Styles
 	}
 	#titleContainerShade {
 		height: 550px;
+	}	
+	.galleryShade {
+		background-color: rgba(0,0,0,0.5);
+	}	
+	#workGalleryContainer h2 {			
+		color: rgba(175,255,61,1);	
+		text-shadow: 1px 1px 1px black;
 	}
-	#titleContainerShade h2 {
-		margin-top: 25%;
-	}
-	.galleryTile {
-		height: 300px;
-	}
-	.galleryShade h2 {
-		margin-top: 8%;
-	}
-	.galleryShade p {
-		margin-top: 2%;
-	}
-	#aboutContainer button {
-		margin: 5% 0;
-	}
-	#footerContainer img {
-		margin-bottom: 0;
-	}
-	#footerContainer h1 {
-		margin-top: 5%;
-		margin-bottom: 0;
-	}
-	#socialIcons {
-		margin-top: 5%;
+	#workGalleryContainer p {		
+		font-weight: bold;
+		color: white;
+		text-shadow: 1px 1px 0px rgba(175,255,61,1);
+	}	
+	#aboutContainer h1 {
+		margin-bottom: 25px;
 	}
 	#contactContainer {
 		height: 100%;
@@ -1016,10 +774,6 @@ Tablet Styles
 	#contactContainer h3 {
 		font-size: 25px;
 		margin-top: 5%;
-	}
-	#contactSocialIcons {
-		margin-top: 5%;
-		margin-bottom: 0;
 	}
 	#aboutPageContainer {
 		height: 100%;
@@ -1039,10 +793,6 @@ Tablet Styles
 		margin-bottom: 0;
 		font-size: 20px;
 	}
-	#aboutSocialIcons {
-		margin-top: 7%;
-		margin-bottom: 10%;
-	}
 	#aboutButton button {
 		margin-top: 2%;				
 	}	
@@ -1050,17 +800,15 @@ Tablet Styles
 		margin-top: 10%;
 	}
 	.fullGalleryShade {
-		background-color: none;
-		-webkit-transition: all 0.2s ease-in-out;
-		-moz-transition: all 0.2s ease-in-out;
-		-ms-transition: all 0.2s ease-in-out;
-		-o-transition: all 0.2s ease-in-out;
-		transition: all 0.2s ease-in-out;
+		background-color: rgba(0,0,0,0.6);
 	}
-	#fullGalleryContainer h2 {
-		margin-top: 10%;		
+	#fullGalleryContainer h2 {		
+		color: rgba(175,255,61,1);
+		text-shadow: 1px 1px 1px black;
 	}
-	#fullGalleryContainer p {		
-		font-size: 20px;
-	}	
+	#fullGalleryContainer p {
+		color: white;
+		text-shadow: 1px 1px 1px black;
+		font-size: 17px;
+	}
 }
