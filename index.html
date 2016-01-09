@@ -38,7 +38,7 @@
 	
 	<!-- Main Container	-->
 		
-	<div class="container col-xs-12" id="mainContainer">
+	<div class="container-fluid" id="mainContainer">
 		
 		<div class="container" id="mobileMenu">
 
@@ -71,9 +71,9 @@
 				<div class="col-md-12">
 					<ul class="col-md-12">
 						<li><a href="JavaScript:void(0)">Home</a></li>	
-						<li><a href="Contact.html">Contact</a></li>		
-						<li><a href="About.html">About</a></li>
-						<li><a href="Work.html">Work</a></li>
+						<li><a href="contact.html">Contact</a></li>		
+						<li><a href="about.html">About</a></li>
+						<li><a href="work.html">Work</a></li>
 						
 					</ul>
 				</div>
@@ -95,9 +95,9 @@
 				<nav class="col-md-6" id="mainNavigation">
 					<ul>
 						<li id="homeNav"><a href="JavaScript:void(0)">Home</a></li>
-						<li id="contactNav"><a href="Contact.html">Contact</a></li>
-						<li id="aboutNav"><a href="About.html">About</a></li>
-						<li id="workNav"><a href="Work.html">Work</a></li>
+						<li id="contactNav"><a href="contact.html">Contact</a></li>
+						<li id="aboutNav"><a href="about.html">About</a></li>
+						<li id="workNav"><a href="work.html">Work</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -108,9 +108,10 @@
 		<div class="container" id="titleContainer">
 			
 			<div class="container" id="titleContainerShade">
+				
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="text-center">My name is Tim</h2>
+						<h2 class="text-center">My name is Tim Gorsuch</h2>
 					</div>
 				</div>
 
@@ -121,80 +122,68 @@
 				</div>
 
 				<div class="row" id="handDown">
-					<a href="#workGallery" class="smoothScroll"><div class="col-md-12 text-center">
-						<span class="glyphicon glyphicon-hand-down"></span>
-					</div></a>
+					<a href="#workGalleryContainer" class="smoothScroll">
+						<div class="col-xs-12 text-center">
+							<span class="glyphicon glyphicon-hand-down"></span>
+						</div>
+					</a>
 				</div>
 
 		</div> <!-- end titleContainer -->
 	
 	<!-- Work Gallery -->
 
-		<a name="#workGallery" class="smoothScroll"></a><div class="container" id="workGallery"></a>
+		<a name="#workGallery" class="smoothScroll"></a>
+
+		<div class="container" id="workGalleryContainer">
 			
 			<div class="row">
 				<div class="col-xs-12">
 					<h1 class="text-center">Recent Work</h1>
 				</div>
-			</div>
-			
-			<div class="container" id="galleryContainer">
+			</div>		
 
-				<div class="row">
+			<div class="row text-center center-block">
 
-					<div class="col-md-4 galleryTile" id="galleryTile1">
-						
-						<a href="photographyTheme\index.html" target="_blank">
-							
-							<div class="text-center galleryShade">
-							
+				<div class="col-md-4 galleryTile" id="galleryTile1">			
+					<a href="photographyTheme\index.html" target="_blank">		
+						<div class="text-center galleryShade">					
 							<h2>Photography Theme</h2>						
-
-							</div>		
-
-						</a>	
-
-					</div>
-					
-					<div class="col-md-4 galleryTile" id="galleryTile2">
-						
-						<a href="bakeryTheme\index.html" target="_blank">
-
-							<div class="text-center galleryShade">
-							
+						</div>	
+					</a>	
+				</div>
+				
+				<div class="col-md-4 galleryTile" id="galleryTile2">			
+					<a href="bakeryTheme\index.html" target="_blank">
+						<div class="text-center galleryShade">					
 							<h2>Bakery/Store Theme</h2>					
+						</div>	
+					</a>
+				</div>
 
-							</div>	
-
-						</a>
-
-					</div>
-
-					<div class="col-md-4 galleryTile" id="galleryTile3">
-						
-						<a href="customCodeSnippets\index.html" target="_blank">
-
-							<div class="text-center galleryShade">
-							
+				<div class="col-md-4 galleryTile" id="galleryTile3">			
+					<a href="customCodeSnippets\index.html" target="_blank">
+						<div class="text-center galleryShade">					
 							<h2>Custom Code Snippets</h2>				
+						</div>	
+					</a>
+				</div>
 
-							</div>	
+			</div>	<!-- end row -->	
 
-						</a>
+			<div class="row text-center">
+				
+				<div class="col-md-6 col-md-offset-3">
 
-					</div>
-				</div>		
+					<a href="work.html">
+						<button id="galleryButton" class="btn btn-lg btn-primary btn-center-block">See More <span class="glyphicon glyphicon-hand-right"> </span></button>
+					</a>
 
-				<div class="row text-center">
-					<div class="col-md-6 col-md-offset-3">
+				</div>				
+			
+			</div> <!-- end row -->			
 
-						<a href="Work.html"><button id="galleryButton" type="button" class="btn btn-lg btn-primary btn-center-block">See More <span class="glyphicon glyphicon-hand-right"> </span></button></a>
-
-					</div>				
-
-			</div> <!-- end galleryContainer -->
-
-		</div> <!-- end workGallery -->
+		</div> <!-- end workGalleryContainer -->
 
 	<!-- About Container -->
 
@@ -208,24 +197,21 @@
 
 			<div class="row text-center" id="aboutInfo">
 				<div class=" col-xs-12 col-md-6 col-md-offset-3">
-					<p>I wasn't always a developer.  I was always other things.</p>	
+					<p>I'm an account manager that's always had a desire to learn new things.</p>	
 
-					<p>But I have a desire to constantly learn new things.</p>
-
-					<p>I began learning web development and I love it.</p>
+					<p>I learned that I love to learn development</p>		
 							
 				</div>			
 			</div>
 
 			<div class="row text-center" id="aboutSubInfo">
 				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
-					<h5>And now I love creating and bringing ideas to life.</h5>
-					
+					<h5>Now I get to create and bring ideas to life.</h5>		
 				</div>
 			</div>
 
 			<div class="row text-center">
-				<a href="About.html"><button class="btn btn-lg btn-primary" type="button" id="aboutButton">Read More <span class="glyphicon glyphicon-hand-right"> </span></button></a>
+				<a href="about.html"><button class="btn btn-lg btn-primary" id="aboutButton">Read More <span class="glyphicon glyphicon-hand-right"> </span></button></a>
 			</div> <!-- end button row -->
 
 		</div> <!-- end aboutContainer -->
@@ -246,7 +232,7 @@
 				</div>
 			</div>
 			
-			<div class="row center-block text-center" id="socialIcons">
+			<div class="row center-block text-center socialIcons" id="homeSocialIcons">
 				<div class="col-xs-12  col-sm-6 col-sm-offset-3">
 					<a href="https://www.linkedin.com/in/timgorsuchnmf" target="_blank"><img src="images\linkedinBlack.png" alt=""></a>		
 								
