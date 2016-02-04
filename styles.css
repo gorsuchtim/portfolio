@@ -154,7 +154,7 @@ Tablet and Mobile Navigation Menu
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 650px;	
+	height: 600px;	
 	z-index: -1;
 	background-image: url('images/stl.jpg');
 	background-repeat: no-repeat;
@@ -162,7 +162,7 @@ Tablet and Mobile Navigation Menu
 }
 #titleContainerShade {	
 	width: 100%;
-	height: 650px;	
+	height: 600px;	
 	background-color: rgba(0,0,0,0.7);
 	font-family: 'Roboto', sans-serif;	
 	color: white;	
@@ -208,11 +208,12 @@ Tablet and Mobile Navigation Menu
 	text-shadow: 1px 1px 0px black;
 }
 .galleryTile {
-	position: relative;	
-	height: 325px;		
-	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
+	height: 325px;		
+	margin: 0;
+	padding: 0;
 }
 #galleryTile1 {
 	background-image: url('images/photographer.jpg');
@@ -462,86 +463,78 @@ Social Icon Styles
 /*----------------------
 	Full Gallery
 -------------------------*/
-#fullGalleryContainer {
+.tileContainer {
 	background-color: white;
-	width: inherit;	
-	z-index: 1;
+	width: 100%;
+	margin: 0;
+	padding: 0;	
 	font-family: 'Roboto', sans-serif;		
 	text-transform: lowercase;	
 }
-#fullGalleryRow1 {
-	margin-top: 2.5%;
+.tileContainer a {
+	text-decoration: none;
+	color: black;
 }
-.fullGalleryTile {	
-	height: 275px;	
-	margin-top: 0%;	
-	cursor: pointer;
-	background-repeat: no-repeat;
+.tile {
 	background-size: cover;
 	background-position: center;
+	background-repeat: no-repeat;
+	height: 187px;
+	border: 2px solid black;	
+	margin: 0;
+	padding: 0;
 }
-#fullGalleryTile1 {
-	background-image: url('images/photographer.jpg');	
+.tileRow1 {
+	padding-top: 60px;
 }
-#fullGalleryTile2 {
-	background-image: url('images/cupcake.jpg');	
-}
-#fullGalleryTile3 {
-	background-image: url('images/laptop.jpg');
-}
-#fullGalleryTile4 {
-	background-image: url('images/imageupload.jpg');	
-}
-#fullGalleryTile5 {	
-	background-image: url('images/math.jpg');	
-}
-#fullGalleryTile6 {		
-	background-image: url('images/javascript.jpg');
-}
-.fullGalleryTile a {
-	text-decoration: none;			
-	color: rgb(80,80,80);		
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;	
-}
-.fullGalleryTile a:hover {	
-	color: white;	
-}
-.fullGalleryShade {		
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;	
-	height: 275px;	
-	font-family: 'Oswald', sans-serif;
-	color: transparent;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
+.fullGalleryShade {	
+	height: 184px;
+	width: 100%;
+	text-align: center;
+	background-color: rgba(255,255,255,0.0);
+	color: transparent;	
+	transition: 0.2s all ease-in;
+	-webkit-transition: 0.2s all ease-in;
+	-moz-transition: 0.2s all ease-in;
+	-ms-transition: 0.2s all ease-in;
+	-o-transition: 0.2s all ease-in;
 }
 .fullGalleryShade:hover {
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(0,0,0,0.85);
 	color: rgba(175,255,61,1);
-	text-shadow: 1px 1px 1px black;		
-}
-.fullGalleryShade h2 {
-	padding-top: 10%;
-	font-size: 30px;		
 }
 .fullGalleryShade p {
-	margin-top: 2%;
-	line-height: 25px;
-	font-size: 15px;
-	text-transform: none;
-	font-family: 'Roboto', sans-serif;	
-	padding: 10px;		
+	padding-top: 60px;
+	font-size: 25px;
+	font-weight: bold;
 }
-
+#row1-1 {
+	background-image: url('images/photographer.jpg');	
+}
+#row1-2 {
+	background-image: url('images/cupcake.jpg');	
+}
+#row1-3 {
+	background-image: url('images/validate.png');
+}
+#row2-1 {	
+	background-image: url('images/caption.jpg');
+}
+#row2-2 {
+	background-image: url('images/js2.png');				
+}
+#row2-3 {
+	background-image: url('images/math2.jpg');		
+}
+#row3-1 {
+	background-image: url('images/lazyload.png');	
+}
+#row3-2 {
+	background-image: url('images/troll3.jpg');
+}
+#row3-3 {
+	background-image: url('images/scroll3.png');	
+}
 /*---------------------
 	 Small Handheld Styles
 ----------------------*/
