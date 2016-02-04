@@ -152,30 +152,31 @@ Tablet and Mobile Navigation Menu
 --------------------*/
 #titleContainer {
 	margin: 0;
+	margin-top: 100px;
 	padding: 0;
 	width: 100%;
-	height: 600px;	
+	height: 394px;	
 	z-index: -1;
 	background-image: url('images/stl.jpg');
 	background-repeat: no-repeat;
 	background-position: center;	
 }
 #titleContainerShade {	
-	width: 100%;
-	height: 600px;	
+	width: 100%;	
+	height: 394px;	
 	background-color: rgba(0,0,0,0.7);
 	font-family: 'Roboto', sans-serif;	
 	color: white;	
 }
 #titleContainerShade h2 {	
-	margin-top: 170px;	
-	font-size: 40px;
+	margin-top: 65px;
+	font-size: 30px;
 	font-weight: bold;
 	color: rgba(175,255,61,1);
 	text-shadow: 3px 3px 3px black;
 }
 #titleContainerShade h3 {	
-	margin-top: 60px;	
+	margin-top: 50px;	
 	font-size: 30px;
 	font-weight: bold;
 	color: white;
@@ -211,7 +212,7 @@ Tablet and Mobile Navigation Menu
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	height: 325px;		
+	height: 300px;		
 	margin: 0;
 	padding: 0;
 }
@@ -222,7 +223,7 @@ Tablet and Mobile Navigation Menu
 	background-image: url('images/cupcake.jpg');
 }
 #galleryTile3 {
-	background-image: url('images/laptop.jpg');
+	background-image: url('images/validate.png');
 }
 .galleryTile a {
 	text-decoration: none;
@@ -235,7 +236,7 @@ Tablet and Mobile Navigation Menu
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	height: 325px;
+	height: 300px;
 	background-color: rgba(0,0,0,0.0);
 	font-family: 'Oswald', sans-serif;
 	color: transparent;
@@ -288,9 +289,9 @@ Tablet and Mobile Navigation Menu
 	background: #595965;
 }
 #aboutContainer h1 {
-	font-size: 50px;
-	margin-top: 50px;
-	margin-bottom: 50px;		
+	font-size: 40px;
+	margin-top: 25px;
+	margin-bottom: 25px;		
 	color: rgba(175,255,61,1);
 	text-shadow: 1px 1px 0px black;	
 }
@@ -301,13 +302,13 @@ Tablet and Mobile Navigation Menu
 }
 #aboutContainer h5 {
 	font-size: 30px;
-	margin-top: 50px;
+	margin-top: 25px;
 	font-family: 'Oswald', sans-serif;
 	text-shadow: 1px 1px 1px white;
 	font-weight: bold;	
 }
 #aboutButton {
-	margin: 50px 0;
+	margin: 30px 0;
 	background-color: rgba(175,255,61,1);
 	color: black;
 	border-color: rgba(175,255,61,1);
