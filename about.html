@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Tim Gorsuch//About</title>
+		<title>Tim Gorsuch//Portfolio</title>
 		
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="description" content="A brief introduction to my professional past, present, and plans for the near future.">
+		<meta name="description" content="Tim Gorsuch is a front-end web developer with skills in html, css, javascript, jquery, angularJS and he writes clean, semantic code because it makes him happy.">
 		
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
 		<meta name="author" content="Tim Gorsuch">
 
-		<!-- favicon icon -->
+		<!-- favicon icon - need to get actual image from Heather -->
 		<link rel="shortcut icon" href="gorsuchLogo.ico" type="image/x-icon">
 		<link rel="icon" href="gorsuchLogo.ico" type="image/x-icon">
 
@@ -26,24 +26,24 @@
 
 		<!-- css -->
 		
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">		
 		<link rel="stylesheet" href="styles.css">
 		
 	</head>
 
 	<body>
-
 	
 	<!-- Main Container	-->
 		
-	<div class="container" id="mainContainer">
+	<div class="container-fluid" id="mainContainer">
 		
 		<div class="container" id="mobileMenu">
 
 			<div class="row">
 
 				<div class="col-xs-9" id="mobileLogo">
-					<a href="index.html"><img src="images/gorsuchLogo.png" alt="" class="img-responsive"></a>					
+					<a href="JavaScript:void(0)"><img src="images/gorsuchLogo.png" alt="" class="img-responsive"></a>
+								
 				</div>
 
 				<div class="col-xs-3 pull-right">
@@ -67,17 +67,17 @@
 
 				<div class="col-md-12">
 					<ul class="col-md-12">
-						<li><a href="index.html">Home</a></li>	
+						<li><a href="JavaScript:void(0)">Home</a></li>	
 						<li><a href="contact.html">Contact</a></li>		
-						<li><a href="JavaScript:void(0)">About</a></li>
+						<li><a href="about.html">About</a></li>
 						<li><a href="work.html">Work</a></li>
-						<li id="angularSwitch"><a href="angularPortfolio/index.html">angularJS</a></li>					
+						<li id="angularSwitch"><a href="angularPortfolio/index.html">view/angularJS <span class="glyphicon glyphicon-hand-right"></span></a></li>
+						
 					</ul>
 				</div>
 			</div>
 
 		</div> <!-- end mobileNavContainer -->
-
 
 	<!-- Desktop Navigation Container -->
 
@@ -85,52 +85,154 @@
 			
 			<div class="row">
 				<div class="col-md-6">
-					<a href="index.html"><img class="img-responsive" src="images/gorsuchLogo.png" alt=""></a>						
+					<a href="JavaScript:void(0)"><img class="img-responsive" src="images/gorsuchLogo.png" alt=""></a>	
 				</div>
 
 				<nav class="col-md-6" id="mainNavigation">
 					<ul>
-						<li id="homeNav"><a href="index.html">Home</a></li>
+						<li id="homeNav"><a href="JavaScript:void(0)">Home</a></li>
 						<li id="contactNav"><a href="contact.html">Contact</a></li>
-						<li id="aboutNav"><a href="JavaScript:void(0)">About</a></li>
+						<li id="aboutNav"><a href="about.html">About</a></li>
 						<li id="workNav"><a href="work.html">Work</a></li>
-						<li id="angularSwitch"><a href="angularPortfolio/index.html">angularJS</a></li>
+						<li id="angularSwitch"><a href="angularPortfolio/index.html">view/angularJS <span class="glyphicon glyphicon-hand-right"></span></a></li>
 					</ul>
 				</nav>
 			</div>
 		</div> <!-- end navigationContainer -->
 
-	<!-- About Container -->
+	<!-- Title Container -->
 
-	<div class="container" id="aboutPageContainer">
+		<div class="container" id="titleContainer">
 			
-			<div class="container" id="aboutPageContainerShade">
-				<div class="row text-center">
+			<div class="container" id="titleContainerShade">
+				
+				<div class="row">
 					<div class="col-md-12">
-						<h2>About me</h2>
+						<h2 class="text-center">My name is Tim Gorsuch</h2>
 					</div>
 				</div>
 
-				<div class="row text-center">
+				<div class="row">
+					<div class="col-md-12">
+						<h3 class="text-center">I'm a front end web developer in St. Louis</h3>			
+					</div>
+				</div>
 
-					<div class="col-xs-12 col-sm-4">
-						<h4>Past</h4>
-						<p>Project and client/account management, freelance web design/development, logistics management and consulting</p>
-					</div>
-					
-					<div class="col-xs-12 col-sm-4">
-						<h4>Present</h4>
-						<p>Freelancing sites while brainstorming personal projects to exercise my development skills and enhance my portfolio</p>
-					</div>
+				<div class="row" id="handDown">
+					<a href="#workGalleryContainer" class="smoothScroll">
+						<div class="col-xs-12 text-center">
+							<span class="glyphicon glyphicon-hand-down"></span>
+						</div>
+					</a>
+				</div>
 
-					<div class="col-xs-12 col-sm-4">
-						<h4>Future</h4>
-						<p>To advance my skills and education as a learning, contributing part of a team of great developers</p>
-					</div>
+		</div> <!-- end titleContainer -->
+	
+	<!-- Work Gallery -->
+
+		<a name="#workGallery" class="smoothScroll"></a>
+
+		<div class="container" id="workGalleryContainer">
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="text-center">Recent Work</h1>
+				</div>
+			</div>		
+
+			<div class="row text-center center-block">
+
+				<div class="col-md-4 galleryTile" id="galleryTile1">			
+					<a href="photographyTheme/index.html" target="_blank">		
+						<div class="text-center galleryShade">					
+							<h2>Photography Theme</h2>
+							<p>html5/css3/bootstrap/jquery</p>						
+						</div>	
+					</a>	
+				</div>
 				
-				</div> <!-- end row -->			
+				<div class="col-md-4 galleryTile" id="galleryTile2">			
+					<a href="bakeryTheme/index.html" target="_blank">
+						<div class="text-center galleryShade">					
+							<h2>Bakery/Store Theme</h2>	
+							<p>angularJS/html5/css3/bootstrap/jquery/javascript</p>				
+						</div>	
+					</a>
+				</div>
 
-		</div> <!-- end aboutPageContainer -->
+				<div class="col-md-4 galleryTile" id="galleryTile3">			
+					<a href="customCodeSnippets/index.html" target="_blank">
+						<div class="text-center galleryShade">					
+							<h2>Code Snippets</h2>				
+							<p>custom boilerplate code</p>
+						</div>	
+					</a>
+				</div>
+
+			</div>	<!-- end row -->	
+
+			<div class="row text-center">
+				
+				<div class="col-md-6 col-md-offset-3">
+
+					<a href="work.html">
+						<button id="galleryButton" class="btn btn-lg btn-primary btn-center-block">See More <span class="glyphicon glyphicon-hand-right"> </span></button>
+					</a>
+
+				</div>				
+			
+			</div> <!-- end row -->			
+
+		</div> <!-- end workGalleryContainer -->
+
+	<!-- About Container -->
+
+		<div class="container" id="aboutContainer">
+			
+			<div class="row">
+				<div class="col-xs-12">
+					<h1 class="text-center">About Me</h1>
+				</div>
+			</div>
+
+			<div class="row text-center" id="aboutInfo">
+				<div class=" col-xs-12 col-md-6 col-md-offset-3">
+					<p>I'm an account manager that's always had a desire to learn new things.</p>	
+
+					<p>I learned that I love to learn development</p>		
+							
+				</div>			
+			</div>
+
+			<div class="row text-center" id="aboutSubInfo">
+				<div class="col-xs-12 col-sm-6 col-sm-offset-3">
+					<h5>Now I get to create and bring ideas to life.</h5>		
+				</div>
+			</div>
+
+			<div class="row text-center">
+				<a href="about.html"><button class="btn btn-lg btn-primary" id="aboutButton">Read More <span class="glyphicon glyphicon-hand-right"> </span></button></a>
+			</div> <!-- end button row -->
+
+		</div> <!-- end aboutContainer -->
+
+	<!-- Footer Container -->
+				
+		<div class="container" id="footerContainer">
+			
+			<div class="row">
+				<div class="col-xs-12" id="footerLogo">
+					<img class="img-responsive center-block" src="images\gorsuchLogo.png" alt="">
+				</div>
+			</div>
+
+			<div class="row text-center">
+				<div class="col-xs-12">
+					<h1>Tim Gorsuch</h1>
+				</div>
+			</div>
+			
+		</div> <!-- end footer container -->
 
 	</div> <!-- end mainContainer -->
 
