@@ -349,41 +349,13 @@ Tablet and Mobile Navigation Menu
 	height: 45px; 
 	width: 30px;
 }
-#homeSocialIcons {
-	margin-top: 25px;
-}
 #footerContainer h1 {
 	color: rgba(175,255,61,1);
 	text-shadow: 1px 1px 0px black;
 	font-family: 'Roboto', sans-serif;	
 	font-size: 35px;
-	text-transform: none;	
-}
-
-/********************
-Social Icon Styles
-*********************/
-.socialIcons {
-	margin-top: 50px;
-	padding-bottom: 50px;
-}
-.socialIcons img {
-	height: 50px;
-	width: 50px;	
-	margin-right: 20px;	
-	padding: 5px;
-	border: 1px solid rgba(175,255,61,1);
-	border-radius: 50%;
-	-webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
-}
-.socialIcons img:hover {	
-	border-radius: 16px;
-	border: 3px solid rgba(175,255,61,1);
-	transform: scale(1.2);	
+	text-transform: none;
+	padding-bottom: 40px;	
 }
 
 /* --------------------
@@ -411,16 +383,34 @@ Social Icon Styles
 	color: rgba(175,255,61,1);
 	text-shadow: 1px 1px 0px black;
 }
+.socialIcons img {
+	height: 50px;
+	width: 50px;	
+	margin: 10px;
+	padding: 5px;
+	border: 1px solid rgba(175,255,61,1);
+	border-radius: 50%;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.socialIcons img:hover {	
+	border-radius: 16px;
+	border: 3px solid rgba(175,255,61,1);
+	transform: scale(1.2);	
+}
 #contactContainerShade h4 {	
 	margin-top: 25px;		
 	font-size: 30px;
 	font-weight: bold;
 	color: rgba(175,255,61,1);	
-	padding-bottom: 152px;
+	padding-bottom: 68px;
 }
 #contactContainerShade p {		
 	margin-top: 25px;	
-	margin-bottom: 0;
+	margin-bottom: 15px;
 	font-size: 18px;	
 }
 #contactContainer a {
