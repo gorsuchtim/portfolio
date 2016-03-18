@@ -127,8 +127,8 @@ Tablet and Mobile Navigation Menu
 }
 #navigationContainer img {
 	float: left;
-	height: 30px;
-	width: 20px;
+	height: 33px;
+	width: 23px;
 	margin-top: 15px;	
 }
 #mainNavigation ul {
@@ -157,7 +157,7 @@ Tablet and Mobile Navigation Menu
 }
 #angularSwitch a {
 	font-weight: bold;
-	color: #ffc100;
+	color: rgba(175,255,61,1);
 	font-size: 15px;
 }
 
@@ -558,7 +558,13 @@ Tablet and Mobile Navigation Menu
 	}
 	#mobileNavContainer ul {
 		margin-top: 25%;
+	}
+	#titleContainer {
+		margin-top: 20px;
 	}	
+	#titleContainerShade {
+		background-color: rgba(0,0,0,0.70);
+	}
 	.galleryShade {
 		background-color: rgba(0,0,0,0.5);
 	}
@@ -658,7 +664,13 @@ Tablet and Mobile Navigation Menu
 	}
 	#mobileNavContainer ul {
 		margin-top: 85px;
+	}	
+	#titleContainer {
+		margin-top: 20px;
 	}		
+	#titleContainerShade {
+		background-color: rgba(0,0,0,0.70);
+	}
 	.galleryShade {
 		background-color: rgba(0,0,0,0.5);
 	}	
